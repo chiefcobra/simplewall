@@ -1,0 +1,10 @@
+[Unit]
+Description=Adding firewall rules to SimpleWall chains
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/nft -f /etc/simplewall_rules.conf
+
+[Install]
+WantedBy=simplewall_rules.target
