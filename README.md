@@ -76,7 +76,7 @@ service on your firewall machine with
 systemctl disable nftables
 ```
 You don't need that service if you intend to use SimpleWall as your firewall and
-you would be better off disabling it, so that is does not interfere in any unwanted
+you would be better off disabling it, so that it does not interfere in any unwanted
 way with foresaid services.
 
 Your system is now ready to start the firewall scripts automatically at boot. Before
